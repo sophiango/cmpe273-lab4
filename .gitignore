@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *.class
 .classpath
 .project
@@ -9,3 +10,13 @@ target
 *.jar
 *.war
 *.ear
+=======
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+>>>>>>> 1393889b126ada8141d8db728c981ba8e874d545
