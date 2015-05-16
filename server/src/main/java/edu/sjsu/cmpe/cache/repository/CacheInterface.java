@@ -1,8 +1,8 @@
 package edu.sjsu.cmpe.cache.repository;
 
-import java.util.List;
-
 import edu.sjsu.cmpe.cache.domain.Entry;
+
+import java.util.List;
 
 /**
  * Entry repository interface.
@@ -34,6 +34,14 @@ public interface CacheInterface {
      * Retrieve all entries
      * 
      * @return a list of entries
+     */
+    
+    Entry delete(Long key);
+
+    /**
+     * Delete Key
+     * 
+     * @return a entry
      */
     List<Entry> getAll();
 
